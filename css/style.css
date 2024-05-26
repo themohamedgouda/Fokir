@@ -32,7 +32,7 @@ background-size: cover;
 .navcontianer{
     width: 65%;
     margin: auto;
-   min-height: 100vh;
+    min-height: 100vh;
     position: relative;
     margin-bottom: 4%;
     padding: 15px 20px;

@@ -61,74 +61,91 @@ background-size: cover;
 }
 .centraltext h4::after{
     content: " | ";
-    animation: typing 7s infinite ease;
+    animation: typing 8s infinite ease;
 }
 @keyframes typing{
     0%{
-      content:'De|';
+    content:'De|';
     }
     5%{
-      content:'Devo|';
+    content:'Devo|';
     }
     10%{
-      content:'Devolp|';
+    content:'Devolp|';
     }
     15% {
-      content: 'Devolper|';
+    content: 'Devolper|';
     }
     20%{
-      content: 'Devolp|';
-  
+    content: 'Devolp|';
     }
     25% {
-      content: 'Devo|';
+    content: 'Devo|';
     }
     30%{
-      content:'De|';
+    content:'De|';
     }
     35%{
-      content:'|';
+    content:'|';
     }
     40%{
-      content:'De|';
+    content:'De|';
     }
     45%{
-      content:'Desi|';
+    content:'Desi|';
     }
     50%{
-      content:'Design|';
+    content:'Design|';
     }
     55% {
-      content: 'Designer|';
+    content: 'Designer|';
     }
     60%{
-      content: 'Design|';
-  
+    content: 'Design|';
     }
     65% {
-      content: 'Desi|';
+    content: 'Desi|';
     }
     70%{
-      content:'De|';
+    content:'De|';
     }
     75%{
-      content:'|';
+    content:'|';
     }
-    80%{
-      content:'Free|';
+    76%{
+    content:'Fr|';
+    }
+    79%{
+        content:'Free|';
+    }
+    82% {
+    content: 'Free La|';
+    }
+    82% {
+        content: 'Free Lanc|';
     }
     85% {
-      content: 'FreeLancer|';
+        content: 'Free Lancer|';
+    }
+    88%{
+    content: 'FreeLanc|';
     }
     90%{
-      content: 'Free|';
-  
+        content: 'FreeLa|';
+    }
+    92%{
+        content: 'Free|';
+    }
+    95%{
+        content: 'Fr|';
+    }
+    98%{
+        content: '|';
     }
     100%{
-      content: '|';
+    content: '|';
     }
-  
-  }
+}
 
 .logo{
     width: 30%;

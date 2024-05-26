@@ -1,3 +1,4 @@
+/*  Start General Components Section */
 *{
     padding: 0;
     margin: 0;
@@ -20,10 +21,8 @@ ul{
 a{
     text-decoration: none;
 }
-
-
-/*   Home Section 
-****************** */
+/*  End General Components Section */
+/*  Start Header Section */
 .home{
 width: 100%;
 background-image:  linear-gradient(to right,black,rgba(0, 0, 0, 0.6)),url(../images/hero\ img.jpg);
@@ -160,9 +159,8 @@ background-size: cover;
 .navcontianer li a:hover{
     color: #ff305b;
 }
-
-/*  About section
-******************** */
+/* End Header Section*/
+/* Start About Section*/
 .aboutcontainer{
 width: 65%;
 margin:auto ;
@@ -261,9 +259,8 @@ float: right;
 .about-R3 button:hover{
 background-color: red;
 }
-
-/* OurServices
-***************** */
+/* End About Section*/
+/* Start Services Section*/
 .services{
     background-color: #f1f1f1;
     margin-bottom: 4%;
@@ -369,9 +366,8 @@ background-color: red;
 .bodyser .ser4:hover{
     background-color: white;
 } 
-
-/* Our Portfolio
-    ******************* */
+/* End Services Section*/
+/* Start Portfolio Section*/
 .portfoliocontianer{
     width: 65%;
     margin: auto;
@@ -489,7 +485,6 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-/* ********** */
 .itemarea2 .layer2{
     position: absolute;
     right: 0;
@@ -510,7 +505,6 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-/* ************ */
 .itemarea3 .layer3{
     position: absolute;
     right: 0;
@@ -531,7 +525,6 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-/* **************** */
 .itemarea4 .layer4{
     position: absolute;
     right: 0;
@@ -552,7 +545,6 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-/* ************** */
 .itemarea5 .layer5{
     position: absolute;
     right: 0;
@@ -573,7 +565,6 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-/* ************* */
 .itemarea6 .layer6{
     position: absolute;
     right: 0;
@@ -594,9 +585,8 @@ overflow: hidden;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
 }
-
-/* othersectioncontainer
- ********************** */
+/* End Portfolio Section*/
+/* Start Testimonial Section*/
  .testimonial{
     width: 100%;
     background-color: #f1f1f1;
@@ -631,10 +621,8 @@ overflow: hidden;
  .othersectioncontainer i{
     color: #ff305b;
  }
-
- /* feedback
-**************
- */
+/* End Testimonial Section*/
+/* Start Feedback Section*/
  .feedbackcontainer{
     width: 65%;
     margin: auto;
@@ -713,9 +701,8 @@ overflow: hidden;
 
 
 }
-
-/* Ourblog
-*************** */
+/* End Feedback Section*/
+/* Start Blog Section*/
 .blog{
     padding-top:40px ;
     padding-bottom:20px ;
@@ -751,9 +738,8 @@ width: 100%;
 border-radius:5px;
 height: 225px;
 }
-
- /* Contact
-************** */
+/* End Blog Section*/
+/* Start Contact Section*/
 .contactcontianer{
     width: 65%;
     margin: auto;
@@ -764,8 +750,6 @@ height: 225px;
     margin-bottom: 20px;
     position: relative;
     text-align: center;
-
-
 }
 .conthead h2::before{
     content: '';
@@ -824,9 +808,8 @@ form button:hover
 {
     background-color: red;
 }
-
-/* footer
-************ */
+/* End Contact Section*/
+/* Start footer Section*/
 .footer{
     background-color: #333333;
 
@@ -853,3 +836,4 @@ span.xx a{
 .footsoical a:hover{
     color: #ff305b;
 }
+/* Start footer Section*/
